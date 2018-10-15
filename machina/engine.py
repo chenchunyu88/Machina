@@ -73,7 +73,7 @@ class Engine(object):
         self._cost_dict = cost_dict
 
     def plot(self):
-        if not self.fit:
+        if not self._fit:
             raise RuntimeError('Please run model fit first.')
 
         sns.set()
