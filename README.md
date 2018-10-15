@@ -7,12 +7,17 @@ The package has been tested on macOS and Linux so far. Below is the dependency o
  - C/C++ compiler
 
 ## Installation
-### 1. Install boost-python
-#### Mac OS X
+### Mac OS X
+#### 1. Install boost-python
 The recommended method to intall `boost-python` is through `Homebrew`
 ```bash
 $ brew install boost-python3
 ```
+#### 2. Install Machina
+```bash
+$ python setup install
+```
+The command should build the binary file from c++ code, and the link it to python.
 
 ### Potential Installation Issues
 #### 1. `pyconfig.h` not found
