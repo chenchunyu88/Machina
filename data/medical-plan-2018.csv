@@ -1,0 +1,10 @@
+name,members,co_insurance,deductible,cost_per_paycheck,company_contribution,self_contribution,out_of_pocket
+High PPO,1,0.1,500,74.815,0,0,1500
+High PPO,2,0.1,750,168.175,0,0,2250
+High PPO,3,0.1,1000,264.01,0,0,3000
+Low PPO,1,0.2,1000,60.955,0,0,2400
+Low PPO,2,0.2,1500,154.07,0,0,3600
+Low PPO,3,0.2,2000,222.43,0,0,4800
+HSA,1,0.1,1800,55.6,550,0,3000
+HSA,2,0.1,2700,127.275,825,0,4500
+HSA,3,0.1,3600,180.45,1100,0,6000
