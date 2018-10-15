@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pylab as plt
 
 
-class Client(object):
+class Engine(object):
     def __init__(self, plans, n_member=1, self_contri=0, tax_fac=0.):
         """
         Initiate client object
