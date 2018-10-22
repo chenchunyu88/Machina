@@ -15,7 +15,7 @@ $ brew install boost-python3
 ```
 #### 2. Install Machina
 ```bash
-$ python setup install
+$ python setup.py install
 ```
 The command should build the binary file from c++ code, and the link it to python.
 
